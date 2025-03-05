@@ -11,6 +11,7 @@ fun main() {
     // Settings.useIronPdfEngineDocker()
     Settings.setLogPath(Paths.get("ironpdf.log"))
     Settings.setDebug(true)
+    License_Api.SetLicensed(System.getenv("IRONPDF_LICENSE_KEY"))
 
     val pdfDocument = PdfDocument.renderHtmlFileAsPdf("example-hyphens.html")
 
