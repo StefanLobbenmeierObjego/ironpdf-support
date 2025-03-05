@@ -8,7 +8,7 @@ import java.io.File
 import java.nio.file.Paths
 
 fun main() {
-    // Settings.useIronPdfEngineDocker()
+    Settings.useIronPdfEngineDocker()
     Settings.setLogPath(Paths.get("ironpdf.log"))
     Settings.setDebug(true)
     val licenseKey = System.getenv("IRONPDF_LICENSE_KEY")

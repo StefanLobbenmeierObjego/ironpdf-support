@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ironpdfengine:
+    image: ironsoftwareofficial/ironpdfengine:2025.2.8
+    ports:
+      - "33350:33350"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
