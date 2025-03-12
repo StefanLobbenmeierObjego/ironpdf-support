@@ -32,7 +32,7 @@ tasks {
 }
 
 dependencies {
-    val ironPdfVersion = "2025.2.8"
+    val ironPdfVersion = "2025.3.6"
     implementation("com.ironsoftware:ironpdf:$ironPdfVersion")
     implementation("org.slf4j:slf4j-simple:2.0.7")
 
